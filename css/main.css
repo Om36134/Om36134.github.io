@@ -1,12 +1,88 @@
- body {
-     background: #ff9585;
- }
+body {
+    background: #ff9585;
+    margin: 0;
+}
 
- div {
-     width: 600px;
-     height: 500px;
-     background-image: url(https://www.stickpng.com/assets/images/580b57fbd9996e24bc43bd3f.png),
-     url(https://c7.hotpng.com/preview/209/221/121/nature-cartoon-illustration-mountain-road-small-river.jpg);
-     background-repeat: no-repeat;
-     background-position: 250px 230px, 45px 55px;
- }
+.container {
+    background: #4251ff;
+    width: 1372px;
+    max-width: 1172px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 0 auto;
+}
+
+.header-nav {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.banner {
+    height: 50px;
+    background: #1cff37;
+}
+
+.logo-header {
+    width: 46px;
+    height: 40px;
+}
+
+.header-ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.header-item {
+    margin-right: 30px;
+}
+
+.header-item:last-child {
+    margin-right: 0px;
+}
+
+.header-item a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    color: #5a5a5a;
+}
+
+.header-item:first-child a {
+    color: #76d4d0;
+}
+
+header {
+    height: 350px;
+    background: #5da8ef;
+}
+
+@media (max-width: 425px) {
+    .container {
+        width: 320px;
+        max-width: 290px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 0 auto;
+    }
+
+    .header-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-ul {
+        flex-direction: column;
+        padding: 0;
+        text-align: center;
+    }
+
+    .header-item {
+        margin: 4px;
+        padding-top: 10px;
+    }
+}
+
