@@ -104,13 +104,11 @@ header {
     position: absolute;
 }
 
-
 /*Section Main*/
 
 .main {
     text-align: center;
 }
-
 
 /*Section About*/
 
@@ -120,7 +118,7 @@ header {
     margin: 0 auto;
     margin-top: 84px;
     margin-bottom: 80px;
-    
+
 }
 
 .about > div {
@@ -138,13 +136,14 @@ header {
 .about-text {
     font-size: 14px;
     color: #5a5a5a;
-    line-height: 1.5;
+    line-height: 1.7;
     font-family: sans-serif;
-    letter-spacing: 1px;
+    letter-spacing: 1.7px;
 }
 
 .about-sign {
     width: 100%;
+    padding-left: 6px;
 }
 
 /*Section skills*/
@@ -155,26 +154,26 @@ header {
     height: 564px;
 }
 
-.skills-content{
+.skills-content {
     flex: 0 0 50%;
 }
 
 .skills-content_wrap {
     width: 500px;
     position: relative;
-    top: 156px;
+    top: 150px;
     left: 0px;
     right: 0;
 }
 
-.skills-content_title{
+.skills-content_title {
     font-size: 30px;
     font-weight: bold;
     font-family: sans-serif;
     color: #000;
 }
 
-.skills-content_text{
+.skills-content_text {
     padding-top: 30px;
     padding-bottom: 20px;
     font-size: 14px;
@@ -184,7 +183,7 @@ header {
     text-transform: uppercase;
 }
 
-.skills-content_grey-line{
+.skills-content_grey-line {
     width: 100%;
     height: 3px;
     background: #d8d8d8;
@@ -199,7 +198,7 @@ header {
     width: 67%;
 }
 
-.bg-green-90{
+.bg-green-90 {
     width: 85%;
 }
 
@@ -208,11 +207,11 @@ header {
 }
 
 .skills-img {
-    flex: 0 0 50%;
+    flex: 0 0 52%;
 }
 
 .skills-img img {
-    width: 119%;
+    width: 100%;
     height: 100%;
     object-fit: cover;
 }
@@ -221,13 +220,13 @@ header {
 
 .numbers {
     background: #10c9c3;
-    height: 230px;
+    height: 235px;
 }
 
 .numbers-wrap {
     display: flex;
     flex-direction: row;
-    padding-top: 103px;
+    padding-top: 96px;
 }
 
 .numbers-wrap_item {
@@ -260,6 +259,42 @@ header {
     font-size: 20px;
     font-weight: 700;
     line-height: 2px;
+}
+
+/*Section Works*/
+
+.works {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.works_items {
+    width: 25%;
+    flex: 0 0 0 25%;
+    flex-wrap: wrap;
+    height: 300px;
+    background-image: url(../img/work-img.png);
+}
+
+.bg {
+    background: #616161;
+}
+
+.works_load {
+    height: 100px;
+    width: 100%;
+    background: #f5f5f5;
+    text-align: center;
+    line-height: 8;
+    letter-spacing: 1px;
+    font-size: 13px;
+    color: #8e8e8e;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-transform: uppercase;
+
 }
 
 @media (max-width: 425px) {
