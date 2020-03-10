@@ -158,6 +158,7 @@ header {
 
 .skills-content {
     flex: 0 0 50%;
+    width: 50%;
 }
 
 .skills-content_wrap {
@@ -268,7 +269,8 @@ header {
 .works {
     display: flex;
     flex-wrap: wrap;
-    width: 1366px;
+    /*width: 1366px;*/
+    width: 100%;
     margin: 0 auto;
 
 }
