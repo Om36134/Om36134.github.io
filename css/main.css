@@ -712,4 +712,33 @@ footer {
 }
 
 
+/*Section About Page*/
+
+.about-page {
+    background-image: url("../img/about-banner.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-page-wrap {
+    width: 504px;
+    text-align: center;
+}
+
+.about-page_title{
+    font-size: 37px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.about-page_text {
+    color: #fff;
+    letter-spacing: 1px;
+    line-height: 2;
+}
 
