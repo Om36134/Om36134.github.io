@@ -15,14 +15,13 @@ body {
 }
 
 .algebra-form {
-    width: 600px;
+    width: 80%;
     font-size: 24px;
     letter-spacing: 1px;
     line-height: 1.5;
 }
 
 .algebra-title {
-    width: 600px;
     font-size: 30px;
     text-align: center;
 }
