@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+    <link rel="stylesheet" href="style/main.css">
+    <title>Document</title>
+</head>
+<body>
+
+<section class="fizika-section">
+
+    <a href="home.html" class="btn-sevenClass">Вернуться назад</a>
+
+    <div class="fizika-section-wrap">
+        <h2>Урок № 1 Физика наука о природе</h2>
+        <div class="fizika-section-wrap_item">
+            <div class="inner-item">
+                <div class="inner-item-test">
+                    <script type="text/javascript" language="JavaScript">// <![CDATA[
+                    var res="13132223";
+                    function check_me()
+                    {
+                        var count=0;
+                        with(document.test) {
+                            if (!Q1[0].checked&&!Q1[1].checked&&!Q1[2].checked&&!Q1[3].checked)
+                            {count+=1};
+                            if (!Q2[0].checked&&!Q2[1].checked&&!Q2[2].checked&&!Q2[3].checked)
+                            {count+=1};
+                            if (!Q3[0].checked&&!Q3[1].checked&&!Q3[2].checked&&!Q3[3].checked)
+                            {count+=1};
+                            if (!Q4[0].checked&&!Q4[1].checked&&!Q4[2].checked&&!Q4[3].checked)
+                            {count+=1};
+                            if (!Q5[0].checked&&!Q5[1].checked&&!Q5[2].checked&&!Q5[3].checked)
+                            {count+=1};
+                            if (!Q6[0].checked&&!Q6[1].checked&&!Q6[2].checked&&!Q6[3].checked)
+                            {count+=1};
+                            if (!Q7[0].checked&&!Q7[1].checked&&!Q7[2].checked&&!Q7[3].checked)
+                            {count+=1};
+                            if (!Q8[0].checked&&!Q8[1].checked&&!Q8[2].checked&&!Q8[3].checked)
+                            {count+=1};
+                            if (count>0) alert("Вы выполнили не все задания. Проверьте себя!")
+                            else answer();
+                        }
+                    }
+
+                    function control(k, f1,f2,f3,f4,f5,f6,f7,f8) {
+                        if (k==1&&f1.checked) return true;
+                        if (k==2&&f2.checked) return true;
+                        if (k==3&&f3.checked) return true;
+                        if (k==4&&f4.checked) return true;
+                        if (k==5&&f5.checked) return true;
+                        if (k==6&&f6.checked) return true;
+                        if (k==7&&f7.checked) return true;
+                        if (k==8&&f8.checked) return true;
+                        return false;
+                    }
+
+                    function answer() {
+                        answ="";
+                        with(document)    {
+                            answ+=control(res.charAt(0) ,test.Q1[0],test.Q1[1],test.Q1[2],test.Q1[3])?"1":"0";
+                            answ+=control(res.charAt(1) ,test.Q2[0],test.Q2[1],test.Q2[2],test.Q2[3])?"1":"0";
+                            answ+=control(res.charAt(2) ,test.Q3[0],test.Q3[1],test.Q3[2],test.Q3[3])?"1":"0";
+                            answ+=control(res.charAt(3) ,test.Q4[0],test.Q4[1],test.Q4[2],test.Q4[3])?"1":"0";
+                            answ+=control(res.charAt(4) ,test.Q5[0],test.Q5[1],test.Q5[2],test.Q5[3])?"1":"0";
+                            answ+=control(res.charAt(5) ,test.Q6[0],test.Q6[1],test.Q6[2],test.Q6[3])?"1":"0";
+                            answ+=control(res.charAt(6) ,test.Q7[0],test.Q7[1],test.Q7[2],test.Q7[3])?"1":"0";
+                            answ+=control(res.charAt(7) ,test.Q8[0],test.Q8[1],test.Q8[2],test.Q8[3])?"1":"0";
+
+                            showResult();
+                        }
+                    }
+
+                    function showResult()   {
+                        var nok=0;
+                        var i,s;
+
+                        for (i=0; i<answ.length;i++) {nok+=answ.charAt(i)=="1"?1:0;}
+                        if(nok==8) s="ОТЛИЧНО";
+                        if(nok<8) s="ХОРОШО";
+                        if(nok<6) s="УДОВЛЕТВОРИТЕЛЬНО";
+                        if (nok<4) s="НЕУДОВЛЕТВОРИТЕЛЬНО";
+                        document.test.s1.
+                            value="Количество правильных ответов "+nok+". Ваша оценка "+s+". Посмотрите на окно рядом с номером вопроса. Если ответ правильный, там (+). Если ответ ошибочен, там (-).";
+
+                        with(document.test)
+                        {
+                            if (answ.charAt(0)=="1") {T1.value=" + "} else {T1.value=" - "};
+                            if (answ.charAt(1)=="1") {T2.value=" + "} else {T2.value=" - "};
+                            if (answ.charAt(2)=="1") {T3.value=" + "} else {T3.value=" - "};
+                            if (answ.charAt(3)=="1") {T4.value=" + "} else {T4.value=" - "};
+                            if (answ.charAt(4)=="1") {T5.value=" + "} else {T5.value=" - "};
+                            if (answ.charAt(5)=="1") {T6.value=" + "} else {T6.value=" - "};
+                            if (answ.charAt(6)=="1") {T7.value=" + "} else {T7.value=" - "};
+                            if (answ.charAt(7)=="1") {T8.value=" + "} else {T8.value=" - "};
+                        }
+                    }
+                    function showhide(obj){
+                        if(obj == 'none') return 'inline';
+                        else return 'none';
+                    }
+                    // ]]>
+                    </script>
+
+                    <form name="test"><ol>
+                        <li><INPUT type="text" size="1" value="" name="T1"/><b> Что изучает физика</b><br/>
+                            <input type="radio" value="0" name="Q1"/> явление изменения в неживой природе<br />
+                            <input type="radio" value="1" name="Q1"/> природу и ее окружение<br />
+                            <input type="radio" value="2" name="Q1"/> все что вокруг нас природу механику атомы<br />
+                            <input type="radio" value="3" name="Q1"/> нет верного ответа<br />
+                            <br/></li><li><INPUT type="text" size="1" value="" name="T2"/><b> Что такое тело</b><br/>
+                        <input type="radio" value="0" name="Q2"/> любой предмет<br />
+                        <input type="radio" value="1" name="Q2"/> пространство вокруг предмета<br />
+                        <input type="radio" value="2" name="Q2"/> область пространства занятое веществом<br />
+                        <input type="radio" value="3" name="Q2"/> нет верного ответа<br />
+                        <br/></li><li><INPUT type="text" size="1" value="" name="T3"/><b> Что такое явление</b><br/>
+                        <input type="radio" value="0" name="Q3"/> процесс изменения<br />
+                        <input type="radio" value="1" name="Q3"/> процесс движения<br />
+                        <input type="radio" value="2" name="Q3"/> процесс роста <br />
+                        <input type="radio" value="3" name="Q3"/> просто процесс<br />
+                        <br/></li><li><INPUT type="text" size="1" value="" name="T4"/><b> Виды материи</b><br/>
+                        <input type="radio" value="0" name="Q4"/> вещество, газ<br />
+                        <input type="radio" value="1" name="Q4"/> жидкость, поле, газ<br />
+                        <input type="radio" value="2" name="Q4"/> вещество, поле<br />
+                        <input type="radio" value="3" name="Q4"/> вещество, газ, жидкость, поле,<br />
+                        <br/></li><li><INPUT type="text" size="1" value="" name="T5"/><b> Физическое явление это</b><br/>
+                        <input type="radio" value="0" name="Q5"/> это все явления которые происходят вокруг нас<br />
+                        <input type="radio" value="1" name="Q5"/> явления происходящие в неживой природе<br />
+                        <input type="radio" value="2" name="Q5"/> явление которое происходит в природе<br />
+                        <input type="radio" value="3" name="Q5"/> нет верного ответа<br />
+                        <br/></li><li><INPUT type="text" size="1" value="" name="T6"/><b> Какой вид материи открыл Фарадей</b><br/>
+                        <input type="radio" value="0" name="Q6"/> вещество<br />
+                        <input type="radio" value="1" name="Q6"/> поле<br />
+                        <input type="radio" value="2" name="Q6"/> газ<br />
+                        <input type="radio" value="3" name="Q6"/> жидкость<br />
+                        <br/></li><li><INPUT type="text" size="1" value="" name="T7"/><b> Выберете из списка физические явления</b><br/>
+                        <input type="radio" value="0" name="Q7"/> световое, звуковое, двигательное<br />
+                        <input type="radio" value="1" name="Q7"/> магнитное, звуковое, тепловое, световое<br />
+                        <input type="radio" value="2" name="Q7"/> нет правильного ответа<br />
+                        <input type="radio" value="3" name="Q7"/> правильны оба варианта<br />
+                        <br/></li><li><INPUT type="text" size="1" value="" name="T8"/><b> Как называется явление, когда тело сохраняет скорость</b><br/>
+                        <input type="radio" value="0" name="Q8"/> Дирекция<br />
+                        <input type="radio" value="1" name="Q8"/> Физическое явление<br />
+                        <input type="radio" value="2" name="Q8"/> Инерция<br />
+                        <input type="radio" value="3" name="Q8"/> Природное явление<br />
+                        <br/></li></ol>
+                        <CENTER>
+
+                        </CENTER>
+
+
+                        <div class="algebra-form-content">
+
+                            <P><TEXTAREA name="s1" rows="4" cols="70" readonly> </TEXTAREA> </P>
+                            <INPUT onclick="check_me()" type="button" value="Показать результат"/>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <INPUT type="reset" value="Сбросить ответы"/>
+                        </div>
+
+
+
+                    </form>
+                    <!-- Test created by service http://test.fromgomel.com -->
+                </div>
+                <div class="inner-item-video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/2JGbRnJfG0g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fizika-section-wrap">
+        <h2>Урок № 2 Научные методы изучения природы </h2>
+
+        <div class="fizika-section-wrap_item">
+            <div class="inner-item">
+                <div class="inner-item-test">
+                </div>
+
+                <div class="inner-item-video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ioaq97Jp10Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="fizika-section-wrap">
+        <h2>Урок № 3 Физические величины и единицы их измерения</h2>
+        <div class="fizika-section-wrap_item">
+            <div class="inner-item">
+                <div class="inner-item-test">
+
+                </div>
+                <div class="inner-item-video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/E-Hps8rwGDY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fizika-section-wrap">
+        <h2>Урок № 4 Измерение физических величин. Цена деления шкалы измерительного прибора</h2>
+        <div class="fizika-section-wrap_item">
+            <div class="inner-item">
+                <div class="inner-item-test">
+
+                </div>
+                <div class="inner-item-video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/8sHSZK0MDsk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fizika-section-wrap">
+        <h2>Урок № 5 Вычисление и измерение площади фигур</h2>
+        <div class="fizika-section-wrap_item">
+            <div class="inner-item">
+                <div class="inner-item-test">
+
+                </div>
+                <div class="inner-item-video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/jjJ9kKhSapU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fizika-section-wrap">
+        <h2>Урок № 6 Вычисление и измерение объема</h2>
+        <div class="fizika-section-wrap_item">
+            <div class="inner-item">
+                <div class="inner-item-test">
+
+                </div>
+                <div class="inner-item-video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/q6T5xfPKi_M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</section>
+<!-- Test created by service http://test.fromgomel.com -->
+<!--Js File Generation Test-->
+<!--<script src="js/main.js"></script>-->
+</body>
+</html>

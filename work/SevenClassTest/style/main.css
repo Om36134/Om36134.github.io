@@ -37,3 +37,104 @@ body {
     font-size: 19px;
     font-weight: bold;
 }
+
+.home-section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-top: 5rem;
+}
+
+.home-section-item {
+    flex: 0 0 0 32%;
+    width: 32%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    -webkit-border-radius: 46px;
+    -moz-border-radius: 46px;
+    border-radius: 46px;
+    margin: 5px;
+    background: #ffffff;
+    webkit-box-shadow: inset 3px 3px 25px 3px rgba(12, 227, 220, 0.34);
+    -moz-box-shadow: inset 3px 3px 25px 3px rgba(12, 227, 220, 0.34);
+    box-shadow: inset -2px -1px 25px 20px rgba(12, 227, 220, 0.69);
+}
+
+.home-section-item:hover {
+    background: rgba(12, 227, 220, 1);
+    webkit-box-shadow: inset 3px 3px 25px 3px rgba(255, 255, 255, 0.34);
+    -moz-box-shadow: inset 3px 3px 25px 3px rgba(255, 255, 255, 0.34);
+    box-shadow: inset 2px 1px 38px 29px #f2f2fb;
+}
+
+.home-section-item_title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #4251ff;
+    padding: 0px 35px;
+    text-decoration: none;
+}
+
+.home-section-item:last-child {
+     webkit-box-shadow: inset 3px 3px 25px 3px rgb(255, 126, 168);
+     -moz-box-shadow: inset 3px 3px 25px 3px rgba(255, 126, 168);
+     box-shadow: inset -2px -1px 25px 20px rgba(255, 126, 168, 0.61);
+ }
+
+.home-section-item:last-child:hover {
+    background: rgb(255, 126, 168);
+    webkit-box-shadow: inset 3px 3px 25px 3px rgba(255, 255, 255, 0.34);
+    -moz-box-shadow: inset 3px 3px 25px 3px rgba(255, 255, 255, 0.34);
+    box-shadow: inset 2px 1px 38px 29px #f2f2fb;
+}
+
+.btn-sevenClass {
+    padding: 20px 40px;
+    background: #ffffff;
+    font-size: 20px;
+    color: #1b30bd;
+    text-decoration: none;
+    -webkit-border-radius: 46px;
+    -moz-border-radius: 46px;
+    border-radius: 46px;
+    webkit-box-shadow: inset 3px 3px 25px 3px rgb(28, 255, 55);
+    -moz-box-shadow: inset 3px 3px 25px 3px rgb(28, 255, 55);
+    box-shadow: inset -2px -1px 25px 20px rgba(28, 255, 55, 0.61);
+}
+
+.fizika-section {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.fizika-section-wrap {
+    margin-top: 5rem;
+}
+
+.inner-item {
+    display: flex;
+    flex-direction: row;
+    }
+
+.inner-item-test {
+    flex: 0 0 0 50%;
+    width: 50%;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .home-section-item {
+        flex: 0 0 0 49%;
+        width: 49%;
+    }
+}
+
+@media (max-width: 425px) {
+    .home-section-item {
+        flex: 0 0 0 100%;
+        width: 100%;
+    }
+}
+
