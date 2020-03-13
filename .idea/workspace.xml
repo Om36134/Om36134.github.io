@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c4e3ccf-4013-4c6c-9cb9-b23c7643e394" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/work/SevenClassTest/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/work/SevenClassTest/algebra.html" afterPath="$PROJECT_DIR$/work/SevenClassTest/algebra.html" />
       <change beforePath="$PROJECT_DIR$/work/SevenClassTest/style/main.css" afterPath="$PROJECT_DIR$/work/SevenClassTest/style/main.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,27 +14,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/work/SevenClassTest/style/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="591">
-              <caret line="121" column="20" lean-forward="true" selection-start-line="121" selection-start-column="20" selection-end-line="121" selection-end-column="20" />
+            <state relative-caret-position="63">
+              <caret line="3" column="130" lean-forward="false" selection-start-line="3" selection-start-column="130" selection-end-line="3" selection-end-column="130" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fizika.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="fizika.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/work/SevenClassTest/fizika.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="718">
-              <caret line="241" column="222" lean-forward="false" selection-start-line="241" selection-start-column="222" selection-end-line="241" selection-end-column="222" />
+            <state relative-caret-position="364">
+              <caret line="19" column="48" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="48" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="e#10102#10108#0" expanded="true" />
                 <element signature="e#10108#10114#0" expanded="true" />
                 <element signature="e#10114#10120#0" expanded="true" />
                 <element signature="e#10120#10126#0" expanded="true" />
+                <element signature="n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#4;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#5;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -44,11 +48,43 @@
       <file leaf-file-name="algebra.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/work/SevenClassTest/algebra.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="259" column="14" lean-forward="true" selection-start-line="254" selection-start-column="7" selection-end-line="259" selection-end-column="14" />
+            <state relative-caret-position="508">
+              <caret line="267" column="35" lean-forward="false" selection-start-line="267" selection-start-column="35" selection-end-line="267" selection-end-column="35" />
               <folding>
                 <element signature="n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+              <folding>
+                <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/work/SevenClassTest/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -100,11 +136,11 @@
         <option value="$PROJECT_DIR$/work/SevenClassTest/index.html" />
         <option value="$PROJECT_DIR$/work/SevenClassTest/nome.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/work/SevenClassTest/algebra.html" />
         <option value="$PROJECT_DIR$/work/SevenClassTest/literature.html" />
         <option value="$PROJECT_DIR$/work/SevenClassTest/home.html" />
-        <option value="$PROJECT_DIR$/work/SevenClassTest/style/main.css" />
         <option value="$PROJECT_DIR$/work/SevenClassTest/fizika.html" />
+        <option value="$PROJECT_DIR$/work/SevenClassTest/algebra.html" />
+        <option value="$PROJECT_DIR$/work/SevenClassTest/style/main.css" />
       </list>
     </option>
   </component>
@@ -217,12 +253,12 @@
       <workItem from="1583925565291" duration="10304000" />
       <workItem from="1584000538980" duration="2194000" />
       <workItem from="1584021844207" duration="2162000" />
-      <workItem from="1584101383996" duration="10245000" />
+      <workItem from="1584101383996" duration="11768000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109210000" />
+    <option name="totallyTimeSpent" value="110733000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -651,10 +687,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/work/SevenClassTest/literature.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/SevenClassTest/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="33" column="143" lean-forward="false" selection-start-line="33" selection-start-column="143" selection-end-line="33" selection-end-column="143" />
+        <state relative-caret-position="420">
+          <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
           <folding>
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -671,51 +723,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/SevenClassTest/literature.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/SevenClassTest/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/SevenClassTest/style/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="121" column="20" lean-forward="true" selection-start-line="121" selection-start-column="20" selection-end-line="121" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/SevenClassTest/algebra.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="259" column="14" lean-forward="true" selection-start-line="254" selection-start-column="7" selection-end-line="259" selection-end-column="14" />
-          <folding>
-            <element signature="n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work/SevenClassTest/fizika.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="718">
-          <caret line="241" column="222" lean-forward="false" selection-start-line="241" selection-start-column="222" selection-end-line="241" selection-end-column="222" />
+        <state relative-caret-position="364">
+          <caret line="19" column="48" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="48" />
           <folding>
             <element signature="n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#10102#10108#0" expanded="true" />
             <element signature="e#10108#10114#0" expanded="true" />
             <element signature="e#10114#10120#0" expanded="true" />
             <element signature="e#10120#10126#0" expanded="true" />
+            <element signature="n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/SevenClassTest/algebra.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="267" column="35" lean-forward="false" selection-start-line="267" selection-start-column="35" selection-end-line="267" selection-end-column="35" />
+          <folding>
+            <element signature="n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/SevenClassTest/style/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="130" lean-forward="false" selection-start-line="3" selection-start-column="130" selection-end-line="3" selection-end-column="130" />
+          <folding />
         </state>
       </provider>
     </entry>

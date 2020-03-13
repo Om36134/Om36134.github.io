@@ -1,6 +1,10 @@
 body {
-    background-color: #1b30bd;
-    background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+    background-color: #3f1ab8;
+    background-image: url("https://www.transparenttextures.com/patterns/skulls.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
+    /*background-color: #1b30bd;*/
+    /*background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");*/
     /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
     color: #fff;
 }
