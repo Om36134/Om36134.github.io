@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c4e3ccf-4013-4c6c-9cb9-b23c7643e394" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/work/SevenClassTest/algebra.html" afterPath="$PROJECT_DIR$/work/SevenClassTest/algebra.html" />
       <change beforePath="$PROJECT_DIR$/work/SevenClassTest/style/main.css" afterPath="$PROJECT_DIR$/work/SevenClassTest/style/main.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +16,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/work/SevenClassTest/style/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="130" lean-forward="false" selection-start-line="3" selection-start-column="130" selection-end-line="3" selection-end-column="130" />
+            <state relative-caret-position="529">
+              <caret line="132" column="24" lean-forward="false" selection-start-line="132" selection-start-column="24" selection-end-line="132" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -253,12 +252,12 @@
       <workItem from="1583925565291" duration="10304000" />
       <workItem from="1584000538980" duration="2194000" />
       <workItem from="1584021844207" duration="2162000" />
-      <workItem from="1584101383996" duration="11768000" />
+      <workItem from="1584101383996" duration="12164000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110733000" />
+    <option name="totallyTimeSpent" value="111129000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -754,8 +753,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/work/SevenClassTest/style/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="130" lean-forward="false" selection-start-line="3" selection-start-column="130" selection-end-line="3" selection-end-column="130" />
+        <state relative-caret-position="529">
+          <caret line="132" column="24" lean-forward="false" selection-start-line="132" selection-start-column="24" selection-end-line="132" selection-end-column="24" />
           <folding />
         </state>
       </provider>
